@@ -308,6 +308,10 @@ footer ul li a:hover {
 
   /* =======================================NAVBAR======================================== */
 
+  /* nav button {
+    display: block;
+  } */
+
   nav {
     background: none;
   }
@@ -349,11 +353,11 @@ footer ul li a:hover {
     display: flex;
     align-items: center;
     transition: all 400ms ease;
-    display: none;
+    /* display: none; */
   }
 
   .nav__items li a:hover {
-    background: var(--color-primary);
+    background: var(--color-dark);
     color: var(--color-white);
   }
 
@@ -458,6 +462,10 @@ footer ul li a:hover {
   .nav__items li a {
     justify-content: center;
     padding: 0;
+  }
+
+  .nav__items li a:hover {
+    background: #575757;
   }
 
   nav button {
